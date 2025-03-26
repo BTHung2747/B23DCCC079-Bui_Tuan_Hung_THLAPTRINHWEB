@@ -38,11 +38,7 @@ export default [
 	},
     {
 		path: '/todo-list',
-<<<<<<< HEAD:DAY-2/config/routes.ts
-		name: 'TodoList',
-=======
 		name: 'DonHang',
->>>>>>> 5364a26 (kiemtra):KTGiuaKY-Đề 2/config/routes.ts
 		component: './TodoList',
 		icon: 'ArrowsAltOutlined',
 	},
