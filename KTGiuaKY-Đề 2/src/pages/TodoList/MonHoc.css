@@ -1,0 +1,82 @@
+body {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ant-input-search {
+  border-radius: 25px;
+  border: 2px solid #8c8c8c;
+  padding: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.ant-input-search:focus {
+  border-color: #ff7eb3;
+  box-shadow: 0px 6px 16px rgba(255, 117, 140, 0.4);
+}
+
+.ant-select {
+  border-radius: 25px;
+  border: 2px solid #8c8c8c;
+  padding: 5px 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(135deg, #ffffff, #e3f2fd);
+  transition: all 0.3s ease-in-out;
+}
+
+.ant-select:hover,
+.ant-select-focused {
+  border-color: #ff7eb3;
+  box-shadow: 0px 6px 16px rgba(255, 117, 140, 0.4);
+}
+
+.ant-select-dropdown {
+  border-radius: 20px;
+  padding: 10px;
+  background: linear-gradient(135deg, #ffffff, #fce4ec);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ant-select-item {
+  border-radius: 10px;
+  padding: 8px 16px;
+  transition: all 0.2s ease;
+}
+
+.ant-select-item:hover {
+  background: #ff758c;
+  color: white;
+}
+
+.ant-select-item-option-selected {
+  background: #ff7eb3;
+  color: white;
+  font-weight: bold;
+}
+
+.ant-btn {
+  border-radius: 25px;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: white;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.ant-btn:hover {
+  background: linear-gradient(135deg, #ff758c, #ff7eb3);
+  box-shadow: 0px 6px 16px rgba(255, 117, 140, 0.4);
+}
+
+.ant-modal-content {
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.ant-table {
+  border-radius: 15px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
